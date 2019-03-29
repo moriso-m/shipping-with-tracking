@@ -1,0 +1,79 @@
+body{
+    font-family: Verdana, Helvetica, Geneva, Arial, sans-serif;
+    background: #ddd;;
+    background-attachment: fixed;
+    margin: 0px;
+
+}
+#main-content{
+    border: 1px solid #c4c4c4;
+    margin-top: -20px;
+}
+#mainNav{
+    background:rgb(153, 51, 153)/* rgb(3, 51, 99)*/;
+    /* margin: -16px; */
+}
+#mainNav ul li a{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.description{
+    font-family: Verdana, Helvetica, Geneva, Arial, sans-serif;
+    font-size: 1.3em;
+}
+.description .fa{
+    color: rgb(153, 51, 153);
+    font-size: 2.6em;
+    line-height: 28px;
+    height:80px;
+    width: 80px;
+    padding:20px 15px;
+    border: 1px solid  rgb(153, 51, 153);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+/*footer.php*/
+.footer{
+    color: #ffffff;
+    text-align: center;
+    background-color:rgb(22, 2, 22)/*rgb(0, 13, 26)*/;
+    margin-top: -5px;
+    margin-left: 0px;
+    font-size: 0.95em;
+    /*max-height: 250px;*/
+}
+.footer a,.footer p{
+    color: #ffffff;
+}
+.mvcenter{
+    text-align: center;
+}
+.footer>.row>div>ul>li>a{
+    text-decoration: none;
+    color:#ffffff;
+
+}
+.footer>.row>div>ul>li>a:hover{
+    text-decoration:underline;
+}
+.footer>.row>div>ul>li>a:active{
+    color:purple;
+}
+.col-sm-9 .fa{
+    color:white;
+}
+.fa-facebook-square:hover{
+    color: #3b5998/*#000099*/;
+}
+.fa-twitter-square:hover{
+    color:/* #00aced #33ccff #0084b4*/#55acee;
+}
+.fa-google-plus:hover{
+    color:	#c63d2d;
+}
+.fa-linkedin:hover{
+    color:	#4875b4;
+}
